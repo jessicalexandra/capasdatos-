@@ -44,7 +44,14 @@
     <Compile Include="CDCITA.cs" />
     <Compile Include="CDMEDICO.cs" />
     <Compile Include="CDPACIENTE.cs" />
+    <Compile Include="Conexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capaentidad\Capaentidad.csproj">
+      <Project>{25e9396d-be04-4481-9e31-1f854e211dc8}</Project>
+      <Name>Capaentidad</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

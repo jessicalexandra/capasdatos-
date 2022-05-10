@@ -17,10 +17,10 @@ namespace capadatos
                 oconectar.Open();
                 return oconectar;
             }
-            catch (Exception)
+            catch (Exception e)
             {
 
-                throw;
+                throw new Exception(e.Message);
             }
         }
     }
